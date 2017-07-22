@@ -1,0 +1,14 @@
+C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\Productnventory\ConsoleApplication\bin\Debug\ConsoleApplication.exe.config
+C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\Productnventory\ConsoleApplication\bin\Debug\ConsoleApplication.exe
+C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\Productnventory\ConsoleApplication\bin\Debug\ConsoleApplication.pdb
+C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\Productnventory\ConsoleApplication\bin\Debug\EntityFramework.dll
+C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\Productnventory\ConsoleApplication\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\Productnventory\ConsoleApplication\bin\Debug\ProductInventory.Classes.dll
+C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\Productnventory\ConsoleApplication\bin\Debug\ProductInventory.DataModel.dll
+C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\Productnventory\ConsoleApplication\bin\Debug\ProductInventory.Classes.pdb
+C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\Productnventory\ConsoleApplication\bin\Debug\ProductInventory.DataModel.pdb
+C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\Productnventory\ConsoleApplication\bin\Debug\EntityFramework.xml
+C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\Productnventory\ConsoleApplication\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\Productnventory\ConsoleApplication\obj\Debug\ConsoleApplication.csprojResolveAssemblyReference.cache
+C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\Productnventory\ConsoleApplication\obj\Debug\ConsoleApplication.exe
+C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\Productnventory\ConsoleApplication\obj\Debug\ConsoleApplication.pdb
