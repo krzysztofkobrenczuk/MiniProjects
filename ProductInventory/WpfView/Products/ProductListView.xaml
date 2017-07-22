@@ -48,6 +48,9 @@
                   Grid.Row="1">
             <DataGrid.Columns>
                 <DataGridTextColumn Binding="{Binding Name}" Width="*"/>
+                <DataGridTextColumn Binding="{Binding Description}" Width="*"/>
+                <DataGridTextColumn Binding="{Binding Price}" Width="*"/>
+                <DataGridTextColumn Binding="{Binding CategoryId}" Width="*"/>
                 <DataGridTemplateColumn Width="Auto">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>

@@ -23,12 +23,10 @@
                 </Trigger>
             </Style.Triggers>
         </Style>
-        <CollectionViewSource x:Key="productViewSource" d:DesignSource="{d:DesignInstance {x:Type Classes:Product}, CreateList=True}"/>
-        <CollectionViewSource x:Key="categoryViewSource" d:DesignSource="{d:DesignInstance {x:Type Classes:Category}, CreateList=True}"/>
-        <CollectionViewSource x:Key="categoryProductsViewSource" Source="{Binding Products, Source={StaticResource categoryViewSource}}"/>
+
 
     </UserControl.Resources>
-    <Grid DataContext="{StaticResource categoryProductsViewSource}">
+    <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
