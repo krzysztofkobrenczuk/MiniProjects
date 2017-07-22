@@ -12,6 +12,8 @@ namespace ProductInventory.DataModel
         Task<Product> AddProductAsync(Product product);
         Task<Product> UpdateProductAsync(Product product);
         Task DeleteProductAsync(int id);
-        
+        Task<List<Product>> GetProductsByCategory(int categoryId);
+
+
     }
 }

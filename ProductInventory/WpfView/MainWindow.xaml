@@ -16,6 +16,9 @@
         <DataTemplate DataType="{x:Type prod:ProductListViewModel}">
             <prod:ProductListView/>
         </DataTemplate>
+        <DataTemplate DataType="{x:Type prod:AddEditProductViewModel}">
+            <prod:AddEditProductView/>
+        </DataTemplate>
     </Window.Resources>
 
     <Grid>

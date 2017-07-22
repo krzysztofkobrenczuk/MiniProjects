@@ -12,3 +12,17 @@ C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\Productnventor
 C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\Productnventory\ProductInventory.DataModel\obj\Debug\ProductInventory.DataModel.pdb
 C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\Productnventory\ProductInventory.DataModel\obj\Debug\ProductInventory.DataModel.Migrations.initial.resources
 C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\Productnventory\ProductInventory.DataModel\obj\Debug\ProductInventory.DataModel.csproj.GenerateResource.Cache
+C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\ProductInventory\ProductInventory.DataModel\bin\Debug\ProductInventory.DataModel.dll.config
+C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\ProductInventory\ProductInventory.DataModel\bin\Debug\ProductInventory.DataModel.dll
+C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\ProductInventory\ProductInventory.DataModel\bin\Debug\ProductInventory.DataModel.pdb
+C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\ProductInventory\ProductInventory.DataModel\bin\Debug\EntityFramework.dll
+C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\ProductInventory\ProductInventory.DataModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\ProductInventory\ProductInventory.DataModel\bin\Debug\ProductInventory.Classes.dll
+C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\ProductInventory\ProductInventory.DataModel\bin\Debug\ProductInventory.Classes.pdb
+C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\ProductInventory\ProductInventory.DataModel\bin\Debug\EntityFramework.xml
+C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\ProductInventory\ProductInventory.DataModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\ProductInventory\ProductInventory.DataModel\obj\Debug\ProductInventory.DataModel.csprojResolveAssemblyReference.cache
+C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\ProductInventory\ProductInventory.DataModel\obj\Debug\ProductInventory.DataModel.Migrations.initial.resources
+C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\ProductInventory\ProductInventory.DataModel\obj\Debug\ProductInventory.DataModel.csproj.GenerateResource.Cache
+C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\ProductInventory\ProductInventory.DataModel\obj\Debug\ProductInventory.DataModel.dll
+C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\ProductInventory\ProductInventory.DataModel\obj\Debug\ProductInventory.DataModel.pdb

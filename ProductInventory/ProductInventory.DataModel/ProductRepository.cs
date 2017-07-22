@@ -40,6 +40,10 @@ namespace ProductInventory.DataModel
             return _context.Products.ToListAsync();
         }
 
+        public async Task<List<Product>> GetProductsByCategory(int categoryId)
+        {
+            return await _context.Products.Where(p => p.CategoryId == categoryId).ToListAsync();
+        }
         public async Task<Product> UpdateProductAsync(Product product)
         {
              if(!_context.Products.Local.Any(p => p.Id == product.Id))
@@ -50,5 +54,7 @@ namespace ProductInventory.DataModel
             await _context.SaveChangesAsync();
             return product;
         }
+
+        
     }
 }

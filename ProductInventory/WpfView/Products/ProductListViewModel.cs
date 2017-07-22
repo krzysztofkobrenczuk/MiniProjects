@@ -17,8 +17,14 @@ namespace WpfView.Products
         public ProductListViewModel(IProductRepository repo)
         {
             _repo = repo;
+            AddProductCommand = new RelayCommand(OnAddProduct);
+            EditProductCommand = new RelayCommand<Product>(OnEditProduct);
+            ClearSearchCommand = new RelayCommand(OnClearSearch);
+            DeleteProductCommand = new RelayCommand<Product>(OnDeleteProduct);
 
         }
+
+     
 
         private ObservableCollection<Product> _products;
 
@@ -49,6 +55,34 @@ namespace WpfView.Products
             {
                 Products = new ObservableCollection<Product>(_allProducts.Where(c => c.Name.ToLower().Contains(searchInput.ToLower())));
             }
+        }
+
+        public RelayCommand AddProductCommand { get; private set; }
+        public RelayCommand<Product> EditProductCommand { get; private set; }
+
+        public RelayCommand<Product> DeleteProductCommand { get; private set; }
+
+        public RelayCommand ClearSearchCommand { get; private set; }
+
+        public event Action<Product> AddProductRequested = delegate { };
+        public event Action<Product> EditProductRequested = delegate { };
+        public event Action<Product> DeleteProductRequested = delegate { };
+
+
+
+        private void OnAddProduct()
+        {
+            AddProductRequested(new Product() );
+        }
+
+        private void OnEditProduct(Product prod)
+        {
+            EditProductRequested(prod);  
+        }
+        private async void OnDeleteProduct(Product prod)
+        {
+            await _repo.DeleteProductAsync(prod.Id);
+            LoadProducts();
         }
 
         public async void LoadProducts()

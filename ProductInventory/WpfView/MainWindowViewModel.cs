@@ -26,7 +26,7 @@ namespace WpfView
 
             _productListViewModel.AddProductRequested += NavToAddProduct;
             _productListViewModel.EditProductRequested += NavToEditProduct;
-            _addEditViewModel.Done += NavToCustomerList;
+            _addEditViewModel.Done += NavToProductList;
          
         }
 

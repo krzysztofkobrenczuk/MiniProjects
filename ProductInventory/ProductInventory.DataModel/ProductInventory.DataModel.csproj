@@ -50,7 +50,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppDbContext.cs" />
+    <Compile Include="CategoryRepository.cs" />
     <Compile Include="DataHelper.cs" />
+    <Compile Include="ICategoryRepository.cs" />
     <Compile Include="IProductRepository.cs" />
     <Compile Include="Migrations\201707211527153_initial.cs" />
     <Compile Include="Migrations\201707211527153_initial.Designer.cs">

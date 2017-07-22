@@ -86,6 +86,7 @@
     </ApplicationDefinition>
     <Compile Include="BindableBase.cs" />
     <Compile Include="ContainerHelper.cs" />
+    <Compile Include="Converters\NegatableBooleanToVisibilityConverter.cs" />
     <Compile Include="MainWindowViewModel.cs" />
     <Compile Include="Products\AddEditProductView.xaml.cs">
       <DependentUpon>AddEditProductView.xaml</DependentUpon>

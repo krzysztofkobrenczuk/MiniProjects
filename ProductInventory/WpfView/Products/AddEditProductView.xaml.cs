@@ -24,5 +24,7 @@ namespace WpfView.Products
         {
             InitializeComponent();
         }
+
+
     }
 }
