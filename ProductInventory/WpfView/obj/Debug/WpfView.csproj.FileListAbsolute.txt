@@ -54,3 +54,6 @@ C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\Productnventor
 C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\Productnventory\WpfView\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
 C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\Productnventory\WpfView\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
 C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\Productnventory\WpfView\obj\Debug\Products\ProductListView.baml
+C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\ProductInventory\WpfView\bin\Debug\WpfView.exe.config
+C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\ProductInventory\WpfView\obj\Debug\WpfView.exe
+C:\Users\Senex\Documents\Visual Studio 2015\Projects\MiniProjects\ProductInventory\WpfView\obj\Debug\WpfView.pdb
