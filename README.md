@@ -16,3 +16,11 @@ Project has 2 class library: Classes (Product and Category), DataModel (Database
 WPF with MVVM uses RelayCommands. 
 
 _____________________________________________________________________________________________
+
+## PageScraper
+Download all links from website without duplicates.
+* Write url in text box and find all links on website.
+
+Application uses Html Agility Pack.
+
+_____________________________________________________________________________________________
