@@ -36,9 +36,6 @@ namespace LinkScraper
             Uri uriResult;
             bool result = Uri.TryCreate(urlBox.Text, UriKind.Absolute, out uriResult)
                 && (uriResult.Scheme == Uri.UriSchemeHttp || uriResult.Scheme == Uri.UriSchemeHttps);
-
-            //var validateLink = GetUri(urlBox.Text;)
-
             listBooox.Items.Clear();
 
             if(result)
@@ -50,8 +47,6 @@ namespace LinkScraper
                 MessageBox.Show("Wrong url");
             }
           
-          
-
         }
 
   
@@ -70,12 +65,15 @@ namespace LinkScraper
         {
             LinkList = new List<string>();
             LinkList.AddRange(links);
+            LinkList = LinkList.Distinct().ToList();
 
             foreach (var item in LinkList)
             {
-                listBooox.Items.Add(item);
+               
+                    listBooox.Items.Add(item);
 
             }
+            
         }
     
     }
