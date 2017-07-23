@@ -1,6 +1,8 @@
 ﻿using HtmlAgilityPack;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Linq;
 using System.Net;
 using System.Text;
@@ -23,7 +25,12 @@ namespace LinkScraper
     /// </summary>
     public partial class MainWindow : Window
     {
-        List<string> LinkList;
+
+        public List<string> LinkList { get; set; }
+
+       // ObservableCollection<string> lstLink = new ObservableCollection<string>();
+        
+
         public MainWindow()
         {
             InitializeComponent();
@@ -31,12 +38,13 @@ namespace LinkScraper
 
         private void dwnBtn_Click(object sender, RoutedEventArgs e)
         {
-            if (!urlBox.Text.StartsWith("http://", StringComparison.OrdinalIgnoreCase)) urlBox.Text = "http://" + urlBox.Text;
+            if (!(urlBox.Text.StartsWith("http://", StringComparison.OrdinalIgnoreCase) || urlBox.Text.StartsWith("https://", StringComparison.OrdinalIgnoreCase)))
+                urlBox.Text = "http://" + urlBox.Text;
             
             Uri uriResult;
             bool result = Uri.TryCreate(urlBox.Text, UriKind.Absolute, out uriResult)
                 && (uriResult.Scheme == Uri.UriSchemeHttp || uriResult.Scheme == Uri.UriSchemeHttps);
-            listBooox.Items.Clear();
+           listBooox.Items.Clear();
 
             if(result)
             {
@@ -46,10 +54,10 @@ namespace LinkScraper
             {
                 MessageBox.Show("Wrong url");
             }
+
+            found.Content = "Found: " + LinkList.Count().ToString() + " links.";
           
         }
-
-  
 
         private IEnumerable<string> Downloader(string url)
         {
@@ -64,17 +72,22 @@ namespace LinkScraper
         private void AddToList(IEnumerable<string> links)
         {
             LinkList = new List<string>();
+
+            
+
             LinkList.AddRange(links);
             LinkList = LinkList.Distinct().ToList();
 
             foreach (var item in LinkList)
             {
-               
                     listBooox.Items.Add(item);
 
             }
             
         }
-    
+        private void searchBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

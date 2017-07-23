@@ -6,11 +6,18 @@
         xmlns:local="clr-namespace:LinkScraper"
         mc:Ignorable="d"
         Title="MainWindow" Height="565" Width="656.642">
+
+    <Window.Resources>
+        <CollectionViewSource x:Key="linksViewSource" />
+    </Window.Resources>
+
+
     <Grid>
         <Grid HorizontalAlignment="Left" Height="72" Margin="10,10,0,0" VerticalAlignment="Top" Width="311">
             <Label x:Name="label" Content="Url:" HorizontalAlignment="Left" Margin="0,4,0,0" VerticalAlignment="Top"/>
             <TextBox x:Name="urlBox" HorizontalAlignment="Left" Height="20" Margin="33,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="268"/>
-            <Button x:Name="dwnBtn" Content="Download" HorizontalAlignment="Left" Margin="236,52,0,0" VerticalAlignment="Top" Width="75" Click="dwnBtn_Click" RenderTransformOrigin="0.578,0.717"/>
+            <Button x:Name="dwnBtn" Content="Download" HorizontalAlignment="Left" Margin="232,45,0,0" VerticalAlignment="Top" Width="69" Click="dwnBtn_Click" RenderTransformOrigin="0.578,0.717" Height="27"/>
+            <Label x:Name="found" Content="" HorizontalAlignment="Left" Margin="33,45,0,0" VerticalAlignment="Top" Width="115"/>
         </Grid>
         <Grid HorizontalAlignment="Left" Height="213" Margin="10,96,0,0" VerticalAlignment="Top" Width="602">
             <Grid.ColumnDefinitions>
