@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<items>
+  <item id="1">
+    <question>Jak się nazywasz</question>
+    <answer correct="y">Nikt</answer>
+    <answer>Ktoś</answer>
+    <answer>Marzena</answer>
+    <answer>Arnold</answer>
+  </item>
+  <item id="2">
+    <question>Podaj nazwę drzewa</question>
+    <answer>Sasna</answer>
+    <answer>Dęb</answer>
+    <answer correct="y">Pitupitu</answer>
+    <answer>Arnold</answer>
+  </item>
+  <item id="3">
+    <question>Jak się nazywasz</question>
+    <answer correct="y">Nikt</answer>
+    <answer>Ktoś</answer>
+    <answer>Marzena</answer>
+    <answer>Arnold</answer>
+  </item>
+  <item id="25426">
+    <question>a</question>
+    <answer>a</answer>
+    <answer>a</answer>
+    <answer correct="y">a</answer>
+    <answer>a</answer>
+  </item>
+  <item id="2764">
+    <question>Czy masz maka na haka?</question>
+    <answer>Tak</answer>
+    <answer>Nie</answer>
+    <answer correct="y">Może</answer>
+    <answer>Nie wiem</answer>
+  </item>
+</items>
