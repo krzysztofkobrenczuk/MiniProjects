@@ -2,7 +2,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -29,13 +31,30 @@ namespace LinkScraper
 
         private void dwnBtn_Click(object sender, RoutedEventArgs e)
         {
+            if (!urlBox.Text.StartsWith("http://", StringComparison.OrdinalIgnoreCase)) urlBox.Text = "http://" + urlBox.Text;
+            
+            Uri uriResult;
+            bool result = Uri.TryCreate(urlBox.Text, UriKind.Absolute, out uriResult)
+                && (uriResult.Scheme == Uri.UriSchemeHttp || uriResult.Scheme == Uri.UriSchemeHttps);
+
+            //var validateLink = GetUri(urlBox.Text;)
+
             listBooox.Items.Clear();
-            AddToList(Downloader(urlBox.Text));
+
+            if(result)
+            {
+                AddToList(Downloader(urlBox.Text));
+            }
+            else
+            {
+                MessageBox.Show("Wrong url");
+            }
+          
           
 
-         
-
         }
+
+  
 
         private IEnumerable<string> Downloader(string url)
         {
@@ -58,5 +77,6 @@ namespace LinkScraper
 
             }
         }
+    
     }
 }

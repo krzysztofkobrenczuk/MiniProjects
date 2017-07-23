@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LinkScraper"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="656.642">
+        Title="MainWindow" Height="565" Width="656.642">
     <Grid>
         <Grid HorizontalAlignment="Left" Height="72" Margin="10,10,0,0" VerticalAlignment="Top" Width="311">
             <Label x:Name="label" Content="Url:" HorizontalAlignment="Left" Margin="0,4,0,0" VerticalAlignment="Top"/>
@@ -17,7 +17,7 @@
                 <ColumnDefinition Width="81*"/>
                 <ColumnDefinition Width="344*"/>
             </Grid.ColumnDefinitions>
-            <ListBox x:Name="listBooox" HorizontalAlignment="Left" Height="213" VerticalAlignment="Top" Width="583" Grid.ColumnSpan="2"/>
+            <ListBox x:Name="listBooox" HorizontalAlignment="Left" Width="583" Grid.ColumnSpan="2" Margin="0,0,0,-219" RenderTransformOrigin="0.499,0.94"/>
         </Grid>
         <Grid HorizontalAlignment="Left" Height="72" Margin="326,10,0,0" VerticalAlignment="Top" Width="286">
             <Label x:Name="label1" Content="Search:" HorizontalAlignment="Left" Margin="0,4,0,0" VerticalAlignment="Top"/>
